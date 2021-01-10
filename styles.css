@@ -1,3 +1,9 @@
+  /* Colors */
+  /*Light Green rgb(218, 252, 252)
+  Green rgb(28, 149, 158)
+  Dark Blue rgb(27, 32, 61)
+  Purple rgb(133, 66, 135) */
+
   /* General */
 
   body {
@@ -43,6 +49,11 @@
     border-radius: 4px;
     padding: 5px;
     width: 300px;
+  }
+
+  .cta {
+    background-color: rgb(28, 149, 158);
+    color: #fff;
   }
 
   .logofooter {
