@@ -1,0 +1,41 @@
+a {
+  text-decoration: none;
+}
+
+.cta {
+  background-color: rgb(133, 66, 135);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 10pt;
+  text-align: center;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.cta:hover {
+  transition-duration: 1s;
+  background-color: rgb(255, 255, 255);
+  color: #854284;
+  border: 2px solid rgb(133, 66, 135)
+}
+
+.cta-view {
+  background-color: rgb(28, 149, 158);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 10pt;
+  text-align: center;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.cta-view:hover {
+  transition-duration: 1s;
+  background-color: rgb(255, 255, 255);
+  color: #1c959e;
+  border: 2px solid rgb(28, 149, 158)
+}
+
+.active {
+  text-decoration: underline;
+}

@@ -1,0 +1,124 @@
+  @import "imports/links.css";
+  @import "imports/variables.css";
+
+  h1,
+  h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+    padding: 5px;
+  } 
+  
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 24pt;
+    font-style: bold;
+  }
+
+  h2 {
+    font-size: 12pt;
+    font-style: bold;
+  }
+  
+  .textpurple {
+  color: var(--purple);
+  text-decoration: underline;
+  } 
+
+  .textgreen {
+    color: var(--dark-green);
+    text-decoration: underline;
+  } 
+
+  header, nav {
+    background-color: var(--light-green); 
+    text-emphasis: var(--dark-blue);
+    text-align: center;
+    color: var(--light-green);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+  }
+
+  nav {
+    display: none;
+  }
+  
+  ul, li {
+    padding: 10px;
+  } 
+
+  a {
+    color: var(--dark-blue);
+  } 
+
+  #hamburger-menu{
+    display: none;
+  }
+
+  #hamburger-menu:checked ~ nav {
+    display: block;
+    float: center;
+  }
+  
+  label {
+    display: block;
+  }
+
+  .fas {
+    padding: 10px 25px 10px 25px;
+    color: var(--dark-blue);
+    display: inline-block;
+    background-color: var(--light-green);
+  }
+
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  aside {
+    text-align: center;
+    text-decoration: underline;
+    background-color: var(--light-green);
+    height: auto;
+    padding: 5px 10px;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .stories {
+    margin:  15px 0px 15px 0px
+  }
+
+  .logofooter {
+    background-color: white;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .nav-footer {
+    display: block;
+    color: var(--light-green);
+    padding: 5px;
+  }
+
+  footer {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    border: 20px;
+    padding: 20px;
+    background-color: var(--dark-blue);
+  }
+
+ 
+
+
+
+ 
+ 

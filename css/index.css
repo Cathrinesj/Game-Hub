@@ -1,0 +1,28 @@
+  .spinner {
+    border: 10px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .productsnew, 
+  .productsused {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 320px;
+    margin: 50px auto;
+    gap: 10px;
+  }
+
+  .product {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .thumbpic {
+    border: 5px;
+    padding: 5px;
+    width: 120px;
+    margin: 10px;
+    flex: 1;
+  }
