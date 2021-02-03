@@ -1,25 +1,12 @@
-@media only screen and (min-width: 600px) {
-  body {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-    'header header'
-    'main aside'
-    'main aside'
-    'main aside'
-    'footer footer'
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
-  header{grid-area: header;}
-  main{grid-area: main;}
-  aside{grid-area: aside;}
-  footer{grid-area: footer;}
-
-  nav, li,
-  .nav-icons {
+  nav, ul {
     display: inline-flex;
-    justify-content: space-evenly;
   }
 
   header label {
@@ -27,36 +14,73 @@
   }
   
   .logo {
-    float: left;
-    max-width: 300px;
+    max-width: 120px;
   }
  
   .productsnew, 
   .productsused {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     max-width: 600px;
   }
 
+  .cta-more {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  
   aside {
-    background-color: white;
+    padding: 20px;
   }
 
   footer {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
 
 } 
 
-@media only screen and (min-width: 800px) {
+@media (min-width: 1024px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    'header header header'
+    'main main aside'
+    'main main aside'
+    'main main aside'
+    'footer footer footer'
+  }
 
+  header{grid-area: header;}
+  main{grid-area: main;}
+  aside{grid-area: aside;}
+  footer{grid-area: footer;}
+
+  .logo {
+    max-width: 200px;
+  }
+  
   .productsnew, 
   .productsused {
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1000px;
+    width: 100%;
+  }
+
+  aside {
+    grid-template-columns: 3;
+    width: 100%;
+    background-color: var(--white);
+    padding: 0px;
+    margin: 0px;
   }
 
 }  
 
-  
+@media (min-width: 1700px) {
+  .productsnew, 
+  .productsused {
+    max-width: 1000px;
+  }
+
+}  
