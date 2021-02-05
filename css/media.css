@@ -23,13 +23,52 @@
     max-width: 600px;
   }
 
-  .cta-more {
+  .product-spec {
+    flex-direction: row;
+    max-width: 1000px;
+    margin-bottom: 330px;
+  }
+
+  .product-text {
+    margin: 20px;
+  }
+
+  .categories {
+    display: inline-flex;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  .cta-big {
     grid-column-start: 2;
     grid-column-end: 4;
+    grid-row: 7;
   }
   
   aside {
     padding: 20px;
+  }
+  
+  .register {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+  }
+
+  .form-wrap {
+    flex-direction: row;
+  }
+
+  .contact-details {
+    flex-direction: row;
+  }
+
+  .basket-flex {
+    flex-direction: row;
+  }
+
+  .sellgamesmenu {
+    display: inline-flex;
+    justify-content: space-evenly;
   }
 
   footer {

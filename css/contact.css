@@ -1,0 +1,22 @@
+.contact {
+    max-width: 1000px;
+    margin: 20px;
+    text-align: center;
+}
+
+.contact-details {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.contact-block {
+    display: block;
+    gap: 10px;
+    margin-top: 20px;
+    flex: 1;
+}
+
+

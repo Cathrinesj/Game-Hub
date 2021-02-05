@@ -20,7 +20,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="newgames.html">New Games</a></li>
           <li><a href="newgames.html">Used Games</a></li>
-          <li class="active"><a href="sellgames.html">Sell Games</a></li>
+          <li><a href="sellgames.html">Sell Games</a></li>
         </ul>
       </nav> 
       <section class="nav-icons">
@@ -32,36 +32,34 @@
     </header>
     <main class="makeadd">
         <section class=sellgamesmenu>
-            <a href="account.html"><h2>Username/Password</h2></a>
+            <h2 class=active>Username/Password</h2>
             <h2>Adress/Bank Details</h2>
-            <h2 class=active>Games for Sale</h2>
+            <a href="sellgames.html"><h2>Games for Sale</h2></a>
             <h2>Order History</h2>
         </section>
-    <h1>Make a new add</h1>
+    <h1>Edit details;</h1>
     <form>
         <div class="form-wrap">
-          <section>
-            <label for="addphotos">Add Photos+</label>
+          <section class=account-block>
+            <label for="addphotos">Add Photo/Avatar</label>
             <textarea id="description" name="description" rows="5" cols="10" class="form-input"></textarea>
-            <textarea id="description" name="description" rows="5" cols="10" class="form-input"></textarea>
-            <textarea id="description" name="description" rows="5" cols="10" class="form-input"></textarea>
-            <textarea id="description" name="description" rows="5" cols="10" class="form-input"></textarea>
+            <label for="Username">Username</label>
+            <input type="text" name="Username" id="Username" class="form-input">
+            <label for="price">E-mail</label>
+            <input type="email" name="email" id="email" class="form-input">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" class="form-input">
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="confirmpassword" name="confirmpassword" id="confirmpassword" class="form-input">
+            <input type="submit" value="Edit" class="cta-big">
           </section>
-          <section>
-            <label for="game">Game</label>
-            <input type="text" name="Game" id="Game" class="form-input">
-            <label for="price">Name your price</label>
-            <input type="number" name="price" id="price" class="form-input">
-            <label for="condition">Condition</label>
-            <input type="text" name="condition" id="condition" class="form-input">
-            <label for="description">Description</label>
-            <textarea id="description" name="description" rows="5" cols="30" class="form-input"></textarea>
-            <label for="paymentmethod">Payment Method</label>
-            <input type="radio" name="paymentmethod" value="vipps" id="vipps" class="form-input"><label for="vipps">Vipps</label>
-            <input type="radio" name="paymentmethod" value="banktransfer" id="banltranser" class="form-input"><label for="banktransfer">Bank Transfer</label>
+          <section class=account-block>
+              <h2>Current details;</h2>
+              <p>Username: Catty</p>
+              <p>Cathrine@e-mail.com</p>
+              <h2>Forgot password?</h2>
           </section>
         </div>
-        <input type="submit" value="Create Add" class="cta-big">
     </form>
     </main>
     <footer>   
@@ -72,4 +70,4 @@
         <img src="images/gamehub_logo_white.PNG" alt="GameHub Logo" class="logofooter"/>   
     </footer>
   </body>
-</html>
+</html> 

@@ -1,0 +1,31 @@
+.basket {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+.basket-flex {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form-input {
+    margin: 20px;
+}
+
+.check-block {
+    margin: 30px;
+    gap: 10px;
+    flex: 1;
+ }
+
+.terms {
+    margin-bottom: 50px;
+ }
+
+.thumbnail {
+    max-width: 120px;
+    gap: 10px;
+    align-content: center;
+ }

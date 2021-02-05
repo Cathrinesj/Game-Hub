@@ -1,0 +1,16 @@
+.register {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+.form-wrap {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.form-input {
+    margin: 10px;
+}
