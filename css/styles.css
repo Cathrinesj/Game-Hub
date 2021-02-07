@@ -86,6 +86,17 @@ label {
   font-weight: 900;
 }
 
+.cta-small {
+grid-column: 1;
+grid-row: 4;
+}
+
+.cta-big {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 7;;
+  }
+
 aside {
   display: block;
   text-align: center;
@@ -103,8 +114,7 @@ aside {
 .logofooter {
   background-color: var(--white);
   max-width: 200px;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
 }
 
 footer a {
