@@ -6,13 +6,12 @@
     <meta name="description" content="GameHub - Join us - you will not regret it" />
     <title>GameHub | Log In</title>
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/login.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/2661e0888f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <img src="images/GameHub_Logo.png" alt="GameHub Logo" class=logo /> 
+      <a href=index.html><img src="images/GameHub_Logo.png" alt="GameHub Logo" class=logo/></a> 
       <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu">
       <nav>
@@ -30,11 +29,13 @@
         <a class="fas fa-desktop" href="basket.html"></a>
       </section> 
     </header>
-    <main class="register">
-    <h1>Create Account;</h1>
-    <form>
-        <div class="form-wrap">
-          <section>
+    <main>
+      <h1>Already a member?</h1>
+      <a href="account.html" class="cta-big"> Log in</a>
+      <h1>Create Account;</h1>
+      <form>
+        <div class="flex-wrap">
+          <section class="flex-block">
             <label for="username">Username</label>
             <input type="text" name="username" id="username" class="form-input">
             <label for="email">E-mail</label>
@@ -44,7 +45,7 @@
             <label for="confirmpassword">Confirm Password</label>
             <input type="password" name="confirmpassword" id="confirmpassword" class="form-input">
           </section>
-          <section>
+          <section class="flex-block">
             <label for="streetadress">Street Adress</label>
             <input type="text" name="streetadress" id="streetadress" class="form-input">
             <label for="postcode">Postcode</label>
@@ -55,16 +56,15 @@
             <input type="number" name="bankaccount" id="bankaccount" class="form-input">
           </section>
         </div>
-        <input type="submit" value="Open account" class="cta-big">
-    </form>
-
+        <input type="submit" value="Open account" class="cta-big"/>  
+      </form>
     </main>
     <footer>   
         <a href="newgames.html"  class="nav-footer">New Games</a> 
         <a href="newgames.html"  class="nav-footer">Used Games</a>
         <a href="sellgames.html"  class="nav-footer">Sell Games</a>
         <a href="contact.html"  class="nav-footer">Contact Us</a>
-        <img src="images/gamehub_logo_white.PNG" alt="GameHub Logo" class="logofooter"/>   
+        <a href=index.html><img src="images/gamehub_logo_white.PNG" alt="GameHub Logo" class="logofooter"/></a>   
     </footer>
   </body>
 </html>

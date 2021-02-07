@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="GameHub - Good choice - new games will soon be with you" />
-    <title>GameHub | Basker</title>
+    <title>GameHub | Basket</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/basket.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <img src="images/GameHub_Logo.png" alt="GameHub Logo" class=logo /> 
+      <a href=index.html><img src="images/GameHub_Logo.png" alt="GameHub Logo" class=logo/></a>
       <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu">
       <nav>
@@ -30,10 +30,10 @@
         <a class="fas fa-desktop" href="basket.html"></a>
       </section> 
     </header>
-    <main class="basket">
+    <main>
     <h1>Check out;</h1>
-      <div class="basket-flex">
-        <section class="check-block">
+      <div class="flex-wrap">
+        <section class="flex-block">
           <h2>Your basket;</h2>
           <div class=product>
             <img src="images/covers/GameHub_covers7.jpg" alt="Picture of Game" class="thumbnail"/> 
@@ -55,9 +55,9 @@
             <input type="radio" name="paymentmethod" value="banktransfer" id="banltranser" class="form-input"><label for="banktransfer">Bank Transfer</label>
           </div>
         </section>
-        <section class="check-block">
+        <section class="flex-block">
             <h2>Delivery adress;</h2>
-            <div>
+            <div class="deliverydet">
               <label for="fullname">Full Name</label>
               <input type="text" name="fullname" id="fullname" class="form-input">
               <label for="streetadress">Street Adress</label>
@@ -66,9 +66,8 @@
               <input type="number" name="postcode" id="postcode" class="form-input">
               <label for="postarea">Postarea</label>
               <input type="postarea" name="postarea" id="postarea" class="form-input">
-            </div>
-            <div class="terms">
-              <input type="radio" name="acceptterms" value="acceptterms" id="acceptterms" class="form-input"><label for="acceptterms">Accept terms and conditions</label>
+              <input type="radio" name="acceptterms" value="acceptterms" id="acceptterms" class="form-input">
+              <label for="acceptterms">Accept terms and conditions</label>
             </div>
             <div>
               <a href="orderconfirmation.html" class="cta-big"> Place order</a>
@@ -80,7 +79,7 @@
         <a href="newgames.html"  class="nav-footer">Used Games</a>
         <a href="sellgames.html"  class="nav-footer">Sell Games</a>
         <a href="contact.html"  class="nav-footer">Contact Us</a>
-        <img src="images/gamehub_logo_white.PNG" alt="GameHub Logo" class="logofooter"/>   
+        <a href=index.html><img src="images/gamehub_logo_white.PNG" alt="GameHub Logo" class="logofooter"/></a>   
     </footer>
   </body>
 </html>

@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="GameHub - Sell games, to buy new ones" />
-    <title>GameHub | Sell Games</title>
+    <meta name="description" content="GameHub - View your details" />
+    <title>GameHub | Your account</title>
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/sellgames.css" rel="stylesheet" />
+    <link href="css/account.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/2661e0888f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <img src="images/GameHub_Logo.png" alt="GameHub Logo" class=logo /> 
+      <a href=index.html><img src="images/GameHub_Logo.png" alt="GameHub Logo" class=logo/></a>
       <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="hamburger-menu">
       <nav>
@@ -30,44 +30,44 @@
         <a class="fas fa-desktop" href="basket.html"></a>
       </section> 
     </header>
-    <main class="makeadd">
-        <section class=sellgamesmenu>
+    <main>
+        <section class=accountmenu>
             <h2 class=active>Username/Password</h2>
             <h2>Adress/Bank Details</h2>
             <a href="sellgames.html"><h2>Games for Sale</h2></a>
             <h2>Order History</h2>
         </section>
-    <h1>Edit details;</h1>
-    <form>
-        <div class="form-wrap">
-          <section class=account-block>
-            <label for="addphotos">Add Photo/Avatar</label>
-            <textarea id="description" name="description" rows="5" cols="10" class="form-input"></textarea>
-            <label for="Username">Username</label>
-            <input type="text" name="Username" id="Username" class="form-input">
-            <label for="price">E-mail</label>
-            <input type="email" name="email" id="email" class="form-input">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" class="form-input">
-            <label for="confirmpassword">Confirm Password</label>
-            <input type="confirmpassword" name="confirmpassword" id="confirmpassword" class="form-input">
-            <input type="submit" value="Edit" class="cta-big">
-          </section>
-          <section class=account-block>
-              <h2>Current details;</h2>
+        <form>
+          <div class="flex-wrap">
+            <section class="flex-block">
+              <h1>Current details;</h1>
               <p>Username: Catty</p>
               <p>Cathrine@e-mail.com</p>
               <h2>Forgot password?</h2>
-          </section>
-        </div>
-    </form>
+            </section>
+            <section class="flex-block">
+              <h1>Edit details;</h1>
+              <label for="addphotos">Add Photo/Avatar</label>
+              <textarea id="description" name="description" rows="5" cols="10" class="form-input"></textarea>
+              <label for="Username">Username</label>
+              <input type="text" name="Username" id="Username" class="form-input">
+              <label for="price">E-mail</label>
+              <input type="email" name="email" id="email" class="form-input">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" class="form-input">
+              <label for="confirmpassword">Confirm Password</label>
+              <input type="confirmpassword" name="confirmpassword" id="confirmpassword" class="form-input">
+              <input type="submit" value="Please change them" class="cta-big">
+            </section>
+          </div>
+        </form>
     </main>
     <footer>   
         <a href="newgames.html"  class="nav-footer">New Games</a> 
         <a href="newgames.html"  class="nav-footer">Used Games</a>
         <a href="sellgames.html"  class="nav-footer">Sell Games</a>
         <a href="contact.html"  class="nav-footer">Contact Us</a>
-        <img src="images/gamehub_logo_white.PNG" alt="GameHub Logo" class="logofooter"/>   
+        <a href=index.html><img src="images/gamehub_logo_white.PNG" alt="GameHub Logo" class="logofooter"/></a>   
     </footer>
   </body>
 </html> 

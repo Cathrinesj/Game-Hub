@@ -1,18 +1,22 @@
 .product-spec {
-    display: flex;
-    max-width: 320px;
-    flex-direction: column;
-    margin: 50px;
-    align-items: center;
-  }
+  display: flex;
+  max-width: 320px;
+  flex-direction: column;
+  margin: 50px;
+  align-items: center;
+}
 
-  .product-image {
-    flex: 1;
-  }
+.product-image {
+  flex: 1;
+}
 
-  .thumbnail {
-     display: flex; 
-     justify-content: space-between;
-     gap: 10px;
-     margin-top: 5px;
-  }
+.product-text {
+  Margin: 10px;
+}
+
+.thumbnail {
+   display: flex; 
+   justify-content: space-between;
+   gap: 10px;
+   margin-top: 5px;
+}
